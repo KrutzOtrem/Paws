@@ -1,4 +1,4 @@
-# Paws, A Productivity and Workflow System
+# Paws, Productivity and Workflow System
 
 ## Intention
 
