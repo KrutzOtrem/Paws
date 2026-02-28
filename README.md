@@ -7,7 +7,6 @@
 <h3 align="center">
   <a href="#timer-quick-menu">Timer</a>&nbsp;•&nbsp;
   <a href="#protocol-menu">Protocol</a>&nbsp;•&nbsp;
-  <a href="#special-edition-overlays">Special Edition Overlays</a>&nbsp;•&nbsp;
   <a href="#settings-main-menu">Settings</a>&nbsp;•&nbsp;
   <a href="#stillroom-keybind-reference">Keybinds</a>&nbsp;•&nbsp;
   <a href="#credits">Credits</a>
