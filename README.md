@@ -391,10 +391,5 @@ If this helps you do even one better session per day, it has done its job.
 
 Mindful Meditations are licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
-<p>Original console assets are used for the Colorful theme, gathered or made by <a href="https://forums.launchbox-app.com/profile/70421-viking/">Viking</a>, and shared on the <a href="https://forums.launchbox-app.com/files/file/2485-colorful-resources/">LaunchBox forums</a>. Pixelated by me. </p>
-
-<p>The screenshots used in this theme are gathered from <a href="https://screenscraper.fr/">ScreenScraper</a></p>
-
-<p>The font used in this theme is <strong>Munro</strong>, created by <a href="https://www.tenbytwenty.com/">Ten by Twenty</a>. All rights belong to the original creator.</p>
 
 </details>
