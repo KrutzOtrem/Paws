@@ -55,15 +55,15 @@ Paws is a distraction-free focus app for NextUI that pairs Pomodoro sessions, da
 
 At its core, Paws is a simple focus and time-management app for NextUI. I built it because I wanted a place to focus without using my phone as the center of that process. Phones are surely useful, but they are also where distraction lives.
 
-For years, I noticed my attention span getting worse. Even without social media, I still had the same pattern of checking my mails, looking up random things, losing contexts, restarting.
+Indeed, for years, I noticed my attention span getting worse. Even without social media, I still had the same pattern of checking my mails, looking up random things, losing contexts, restarting.
 
-I have tried what feels like every focus app and focus game on desktop, including what feels like countless lofi Pomodoro tools, plus many more on phone. After years of testing and actually using them, this is probably the only topic where I can confidently call myself an expert.
+I’ve tried what feels like every focus and productivity app in existence. The serious ones, the lo-fi ones, the gamified ones. Simple timers, full-blown narrative games, anything with a Pomodoro timer built in. After years of testing and actually using them, this is probably the only topic where I can confidently call myself an expert.
 
 Many of those apps are clearly made with care, and they absolutely work for most people. Unfortunately, not for me. My mind throws up constant, random thoughts at me; some are real inspirations related to my work, but they're distractions nevertheless. A task that should take one hour turns into two or three because I start researching, checking the time, reading emails, or chasing `a super important topic before I forget`. In practice, this is noise, and frankly, a genius trick by the brain to avoid staying still and focusing.
 
 That is also why I picked this device format: you cannot truly multitask on it, so it is much harder to distract yourself. I also disabled music browsing behavior as much as possible, because my brain turned that into another avoidance pattern by constantly searching for the perfect track instead of focusing.
 
-Paws started as a simple Pomodoro timer, and only as a timer, with no text label attached. Over time, I kept adding what I actually needed during real sessions: better tracking, visuals, music, and a system that actually tricks me, for once, into playing games on Brick.
+Paws started as a simple Pomodoro timer, and only as a timer, with no text label attached. Over time, I kept adding what I actually needed during real sessions: better tracking, visuals, music, and a system that actually tricks me, for once, into playing games on Brick. I don’t claim this is better than what already exists. It has plenty of faults, most of them stemming from my own limitations, but it undeniably separates the self from the phone, which, in my opinion, has great value.
 
 That is still the point of this app.
 
