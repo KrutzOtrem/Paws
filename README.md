@@ -13,9 +13,50 @@
   
 </h3>
 
+
 Paws is a distraction-free focus app for NextUI that pairs Pomodoro sessions, daily schedules, and music integration with a system that turns your focus time into budgeted gaming sessions. It comes with an unimpressed cat. 
 
-## 🎯 Objective
+<details open> <!-- opened by default for<img width="1024" height="768" alt="Screenshot 2026-02-28-22-40-08" src="https://github.com/user-attachments/assets/0d7a36bd-be58-4cce-872a-6cafd04c0c23" />
+ instant eye-candy -->
+
+<p>
+
+<table width="100%" cellspacing="0" cellpadding="4" border="1">
+  <tr>
+    <td width="33%" align="center">
+      <img src="https://github.com/user-attachments/assets/52645bac-698b-49be-8c0e-4c0cbb8d019d" width="100%"><br>
+       <sub><em>Main Screen</em></sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="https://github.com/user-attachments/assets/9a378fd8-bad5-49e5-8725-e1cc3c5cb97a" width="100%"><br>
+      <sub><em>Main Screen with Pomodoro on</em></sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="https://github.com/user-attachments/assets/ac11252d-0b35-43d1-8ea6-0ff4ae805a6c" width="100%"><br>
+      <sub><em>HUD Hidden</em></sub>
+    </td>
+  </tr>
+   <tr>
+    <td width="33%" align="center">
+      <img src="https://github.com/user-attachments/assets/9e5efd98-7a33-42a5-a5c5-8b82496920d21" width="100%"><br>
+       <sub><em>Pomodoro</em></sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="https://github.com/user-attachments/assets/be23d399-c2dd-4d8a-9737-613257c6ed1a" width="100%"><br>
+      <sub><em>Routines</em></sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="https://github.com/user-attachments/assets/9ea71b13-a3ee-48a3-9197-aa11b0e681d1" width="100%"><br>
+       <sub><em>Terminal</em></sub>
+    </td>
+  </tr>
+</table>
+
+</details>
+
+## Objective
+
+
 
 At its core, Paws is a simple focus and time-management app for NextUI. I built it because I wanted a place to focus without using my phone as the center of that process. Phones are surely useful, but they are also where distraction lives.
 
@@ -293,16 +334,15 @@ If this helps you do even one better session per day, it has done its job.
 - `Select`: open Timer Menu.
 - `Start` open Settings Menu.
 - `Menu` open Protocol Menu
-- `Left/Right`: cycle background base (time of the day, if available).
-- `Up/Down`: cycle location.
-- `L1/R1`: previous/next music folder.
-- `L2/R2`: previous/next track.
+- `Left/Right`: cycle background base (time of the day, if available)
+- `Up/Down`: cycle location
+- `L1/R1`: previous/next music folder
+- `L2/R2`: previous/next track
 - `L3`: music on/off.
 - `R3`: play/pause current music.
 - `Y`: if a session is running, open end-session confirm.
 - `X`: toggle meta selector.
-  - In meta selector: `Left/Right` change token, `Up/Down` change selected value, `R3` open stanza selector.
-    - In stanza selector:  `Left/Right & Up/Down` navigate, `A` hold and drop tokens, `Y` delete tokens.
+- In meta selector: `Left/Right` change token, `Up/Down` change selected value, `R3` open stanza selector, `B` or `Y` close.
 - Hold `B` (~`450ms`) or `Power`: toggle HUD visibility.
 
 ### Menus
@@ -346,3 +386,20 @@ If this helps you do even one better session per day, it has done its job.
 - Routines: `L2/R2` changes selected day, `Left/Right` changes time of the day.
 - Tasks list: `R3` adds item, `L3` deletes selected item, `Y` resets completion marks for current list.
 
+## Credits
+
+<details open> 
+<summary><strong>Meditations</strong></summary>
+<br>
+  
+“Mindful Meditations” created by Diana Winston and others (see above) for the [UCLA Mindful](https://www.uclahealth.org/uclamindful), ©2011- 2024 The Regents of the University of California (The UC Regents).
+
+Mindful Meditations are licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+<p>Original console assets are used for the Colorful theme, gathered or made by <a href="https://forums.launchbox-app.com/profile/70421-viking/">Viking</a>, and shared on the <a href="https://forums.launchbox-app.com/files/file/2485-colorful-resources/">LaunchBox forums</a>. Pixelated by me. </p>
+
+<p>The screenshots used in this theme are gathered from <a href="https://screenscraper.fr/">ScreenScraper</a></p>
+
+<p>The font used in this theme is <strong>Munro</strong>, created by <a href="https://www.tenbytwenty.com/">Ten by Twenty</a>. All rights belong to the original creator.</p>
+
+</details>
