@@ -301,7 +301,7 @@ If this helps you do even one better session per day, it has done its job.
 - `R3`: play/pause current music.
 - `Y`: if a session is running, open end-session confirm.
 - `X`: toggle meta selector.
-- In meta selector: `Left/Right` change token, `Up/Down` change selected value, `R3` open stanza selector, `B` or `Y` close.
+  - In meta selector: `Left/Right` change token, `Up/Down` change selected value, `R3` open stanza selector, `B` or `Y` close.
 - Hold `B` (~`450ms`) or `Power`: toggle HUD visibility.
 
 ### Menus
