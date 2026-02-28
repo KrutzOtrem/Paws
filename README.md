@@ -1,5 +1,7 @@
 # Paws, Productivity and Workflow System
 
+Paws is a distraction-free focus app for NextUI that pairs Pomodoro sessions, daily schedules, and music integration with a system that turns your focus time into budgeted gaming sessions. It comes with an unimpressed cat. 
+
 ## Intention
 
 Paws is a focus and time-management app for NextUI. I built it because I wanted a place to focus without using my phone as the center of that process.
