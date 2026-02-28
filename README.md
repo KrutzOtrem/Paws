@@ -1,14 +1,19 @@
-# Paws, Productivity and Workflow System
+<h1>
+  <img
+    src="https://github.com/user-attachments/assets/38603350-5d25-4502-ba93-dfb2e3733fdb"
+    width="32"
+    height="32"
+    alt="paw icon"
+    style="vertical-align: middle;"
+  />
+  Paws, Productivity and Workflow System
+</h1>
 
 Paws is a distraction-free focus app for NextUI that pairs Pomodoro sessions, daily schedules, and music integration with a system that turns your focus time into budgeted gaming sessions. It comes with an unimpressed cat. 
 
-## Intention
+## Objective
 
-Paws is a focus and time-management app for NextUI. I built it because I wanted a place to focus without using my phone as the center of that process.
-
-Phones are surely useful, but they are also where distraction lives.
-
-## Why I Built It
+At its core, Paws is a simple focus and time-management app for NextUI. I built it because I wanted a place to focus without using my phone as the center of that process. Phones are surely useful, but they are also where distraction lives.
 
 For years, I noticed my attention span getting worse. Even without social media, I still had the same pattern of checking my mails, looking up random things, losing contexts, restarting.
 
@@ -41,6 +46,17 @@ What you are seeing here in practice comes from four systems that work together:
 - Music playback
 
 ## Timer Quick Menu
+
+<h3>
+  <img
+    src="https://github.com/user-attachments/assets/f8e1b6fc-6816-4f90-a431-1400a4728d05"
+    width="48"
+    height="48"
+    alt="paw icon"
+    style="vertical-align: middle;"
+  />
+  1. Timer
+</h3>
 
 ### 1. Timer
 
