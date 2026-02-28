@@ -293,15 +293,16 @@ If this helps you do even one better session per day, it has done its job.
 - `Select`: open Timer Menu.
 - `Start` open Settings Menu.
 - `Menu` open Protocol Menu
-- `Left/Right`: cycle background base (time of the day, if available)
-- `Up/Down`: cycle location
-- `L1/R1`: previous/next music folder
-- `L2/R2`: previous/next track
+- `Left/Right`: cycle background base (time of the day, if available).
+- `Up/Down`: cycle location.
+- `L1/R1`: previous/next music folder.
+- `L2/R2`: previous/next track.
 - `L3`: music on/off.
 - `R3`: play/pause current music.
 - `Y`: if a session is running, open end-session confirm.
 - `X`: toggle meta selector.
-  - In meta selector: `Left/Right` change token, `Up/Down` change selected value, `R3` open stanza selector, `B` or `Y` close.
+  - In meta selector: `Left/Right` change token, `Up/Down` change selected value, `R3` open stanza selector.
+    - In stanza selector:  `Left/Right & Up/Down` navigate, `A` hold and drop tokens, `Y` delete tokens.
 - Hold `B` (~`450ms`) or `Power`: toggle HUD visibility.
 
 ### Menus
