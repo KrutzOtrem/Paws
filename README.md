@@ -1,13 +1,18 @@
-<h1>
-  <img
-    src="https://github.com/user-attachments/assets/38603350-5d25-4502-ba93-dfb2e3733fdb"
-    width="32"
-    height="32"
-    alt="paw icon"
-    style="vertical-align: middle;"
-  />
-  Paws, Productivity and Workflow System
+<!-- ————————— HEADER ————————— -->
+<h1 align="center">
+  🐈‍⬛ Paws, Productivity and Workflow System
 </h1>
+
+<!-- minimal jump-<img src="https://github.com/user-attachments/assets/44abbcda-a786-4b9f-91cb-46cf99003799" height="20">s bar -->
+<h3 align="center">
+  <a href="#timer-quick-menu">Timer</a>&nbsp;•&nbsp;
+  <a href="#protocol-menu">Protocol</a>&nbsp;•&nbsp;
+  <a href="#special-edition-overlays">Special Edition Overlays</a>&nbsp;•&nbsp;
+  <a href="#settings-main-menu">Settings</a>&nbsp;•&nbsp;
+  <a href="#stillroom-keybind-reference">Keybinds</a>&nbsp;•&nbsp;
+  <a href="#credits">Credits</a>
+  
+</h3>
 
 Paws is a distraction-free focus app for NextUI that pairs Pomodoro sessions, daily schedules, and music integration with a system that turns your focus time into budgeted gaming sessions. It comes with an unimpressed cat. 
 
@@ -47,25 +52,15 @@ What you are seeing here in practice comes from four systems that work together:
 
 ## Timer Quick Menu
 
-<h3>
-  <img
-    src="https://github.com/user-attachments/assets/f8e1b6fc-6816-4f90-a431-1400a4728d05"
-    width="48"
-    height="48"
-    alt="paw icon"
-    style="vertical-align: middle;"
-  />
-  Timer
-</h3>
-
+### ⏱️ Timer
 
 Custom timer supports countdown or count-up and can be labeled for session tracking. Session history and stats are saved so you can see where your time actually went.
 
-### 2. Pomodoro
+### 🍅 Pomodoro
 
 Pomodoro session setup and loop flow with saved behavior that is designed to be simple and repeatable.
 
-### 3. Meditation
+### 🧘 Meditation
 
 Meditation includes three modes:
 
@@ -73,11 +68,11 @@ Meditation includes three modes:
 - Guided meditation audio
 - Guided box-breathing mode with visual pacing
 
-### 4. Tasks
+### 📒 Tasks
 
 Tasks are simple checklists with completion tracking. This stays intentionally lightweight.
 
-### 5. Routines
+### 🕑 Routines
 
 Routines provide day and time-of-day planning with phase structure:
 
@@ -88,7 +83,7 @@ Routines provide day and time-of-day planning with phase structure:
 
 And weekly scheduling from Monday to Sunday.
 
-### 6. Booklets
+### 📖 Booklets
 
 Booklets are plain text quick-reference files shown inside the app. They read `.txt` files from the `booklets/` folder.
 
@@ -97,13 +92,13 @@ Booklets are plain text quick-reference files shown inside the app. They read `.
 
 Protocol is optional, but it is also the most distinctive part of Paws because it connects focus tracking to your game library.
 
-### 1. Terminal
+### 🐈‍⬛ Terminal
 
 Terminal is the guidance interface, run by a cat who leans on sarcasm a bit too much. His name is Paws, and he is the purroductivity and workmeow system itself, as he calls it.
 
-- Paws is the guidance interface. It continuously logs your focus and meditation sessions, then converts that history into two practical values: recuperation minutes (your spendable play budget) and progression. You can run this system strictly, keep it looser, or manually add and subtract time depending on how rigid you want the loop to be.
+- Paws is the guidance interface. It continuously logs your focus and meditation sessions, then converts that history into two practical values: recuperation minutes (that you purchase tickets for game sessions with) and progression. You can run this system strictly, keep it looser, or manually add and subtract time depending on how rigid you want the loop to be.
 
-- Guidance manages up to three active quests at a time. Each quest is a concrete play objective tied to a game, system, or achievement, and this is where recuperation minutes are actually spent. Recommendations are pulled from your ROM library and can be limited by your system whitelist. Quests can be generated automatically or selected manually through Protocol.
+- Guidance manages up to three active quests at a time, excluding narrative questlines. Each quest is a concrete play objective tied to a game, system, or achievement, and this is where recuperation minutes are actually spent. Recommendations are pulled from your ROM library and can be limited by your system whitelist. Quests can be generated automatically or selected manually through Protocol.
 
 - When RetroAchievements data is available, Paws can attach the first locked achievement for the selected game; if that data is unavailable, it falls back to a time-based objective. Abandon behavior is intentionally limited: a quest is abandonable only after at least five minutes of play, and only if no achievement was unlocked.
 
@@ -112,14 +107,14 @@ Terminal is the guidance interface, run by a cat who leans on sarcasm a bit too 
 - Custom narratives are plain `.txt` files under `terminal/narratives/`, using an INI-style format with a `[meta]` block and staged nodes (`stage.N.*`). Supported task types are `play_game`, `play_console`, and `earn_achievement`, and these can be combined across stages. A typical quest chain is structured as intro, optional user branch, objective, then completion text. I encourage people to write and share narratives, mostly because it is fun to do, but especially now that RetroAchievements support is in place, and community-made quests can be a fun thing. I also built a node-based quest editor so anyone can create these quests, so please check it out [here](https://krutzotrem.github.io/stillroom-editor/) (this is an outdated build, but I will update the version when I find the time). RetroAchievements is my own port, so some edge-case behavior may differ slightly and you many encounter bugs (I hope you don't). Core functionality is the same, so these narrative quests can be completed within Paws, or within NextUI's own MinArch.
 
 
-### 2. Balance
+### ⌛ Balance
 
 Balance manages recuperation minutes and minute economy behavior.
 
 - Recuperation behavior is adjustable (rate + manual add/subtract)
 - You can use Stillroom as a pure focus app, or use guidance only by manually adding time
 
-### 3. Simulations
+### 👓 Simulations
 
 Simulations are controlled play sessions inside the same ecosystem.
 
@@ -128,15 +123,15 @@ Simulations are controlled play sessions inside the same ecosystem.
 - To make time tracking work correctly, launch games from Paw's Protocol/quest flow inside the PAK (not directly from NextUI's own)
 - It is a simplified fork with Paws-specific modules, including RetroAchievements integration, online manual and game logo support, and a custom overlay system
 
-### 4. Stress Test
+### 💓 Stress Test
 
 Stress Test is a stricter challenge behavior for users who want harder rules than regular simulation sessions. Normally supports hardcore RetroAchievements, but I disabled it until the implementation is more complete and we get an okay from the developers.
 
-### 5. Protocols
+### 📔 Protocols
 
 Protocols are basically the quest board.
 
-### 6. Baseline
+### 🧍 Baseline
 
 Baseline keeps records of your focus/meditation sessions.
 
@@ -144,7 +139,7 @@ I must say, if you only want timers, routines, meditation, and stats, you do not
 
 ## Settings Main Menu
 
-### 1. Profile
+### 🧑 Profile
 
 Profile includes user/account-facing settings and service pairing details.
 
@@ -154,7 +149,7 @@ Spotify notes:
 2. In Paws, open `Settings -> Profile -> Spotify`, set your device name (however you want), and use `connect / restart`.
 3. Pair from a signed-in phone or computer: start playback there first, open Spotify's device picker, and select your device name.
 4. After pairing, Spotify issues tokens for playback control. These are not permanent and may expire or be revoked.
-5. You don't need to pair it every time to use it, but I don't know how long it can be stored.
+5. You don't need to pair it every time to use it, but I also don't know how long it can be stored for.
 6. Paws and your device will be in sync, which means you can continue listening on your mobile/computer, but not vice versa. That would defeat its purpose.
 7. Spotify account passwords are not stored by Paws.
 8. Spotify playback naturally requires Premium.
@@ -165,8 +160,9 @@ Sensitive auth fields (including Spotify tokens, Screenscraper, and RetroAchieve
 
 - Current format: AES-256-GCM (OpenSSL), 16-byte nonce, authenticated tag, and AAD-bound metadata (version + nonce + payload length).
 - Key derivation: device-bound key material derived on-device from hardware/system fingerprint inputs and hashed with SHA-256.
+- This is a little bit overkill, but if you wish to use the system, there is no reason not to.
 
-### 2. Display
+### 📺 Display
 
 Display covers visuals, backgrounds, atmosphere, and text presentation.
 
@@ -213,7 +209,7 @@ How I set up sync (and how you can change it):
 
 You can use defaults and ignore all of this, or customize deeply.
 
-### 3. Sound
+### 🔊 Sound
 
 Sound controls bells, ambience, and music playback.
 
@@ -271,7 +267,7 @@ I will not add download support. In fact, I modified the default behavior becaus
 
 I support background music, as it is central to the experience for most users, but I do not intend for this application to become a full-fledged music player. I am already well beyond the original scope. By tens of thousands of lines of code, in fact.
 
-### 4. Gameplay
+### 👾 Gameplay
 
 Gameplay covers focus-to-play behavior and runtime constraints.
 
@@ -283,3 +279,70 @@ Gameplay covers focus-to-play behavior and runtime constraints.
 ## Final Note
 
 If this helps you do even one better session per day, it has done its job.
+
+
+
+
+
+
+# Stillroom Keybind Reference
+
+
+### Main Screen
+
+- `A`: pause/resume active timer run
+- `Select`: open Timer Menu.
+- `Start` open Settings Menu.
+- `Menu` open Protocol Menu
+- `Left/Right`: cycle background base (time of the day, if available)
+- `Up/Down`: cycle location
+- `L1/R1`: previous/next music folder
+- `L2/R2`: previous/next track
+- `L3`: music on/off.
+- `R3`: play/pause current music.
+- `Y`: if a session is running, open end-session confirm.
+- `X`: toggle meta selector.
+- In meta selector: `Left/Right` change token, `Up/Down` change selected value, `R3` open stanza selector, `B` or `Y` close.
+- Hold `B` (~`450ms`) or `Power`: toggle HUD visibility.
+
+### Menus
+
+#### Timer Quick Menu (Select Button)
+- `1.` Timer
+- `2.` Pomodoro
+- `3.` Meditation
+- `4.` Tasks
+- `5.` Routines
+- `6.` Booklets
+
+#### Protocol Menu (TrimUI Button)
+- `1.` Terminal
+- `2.` Balance
+- `3.` Simulations
+- `4.` Stress Test
+- `5.` Protocols
+- `6.` Baseline
+
+#### Settings Main Menu (Start)
+- `1.` Profile
+- `2.` Display
+- `3.` Sound
+- `4.` Gameplay
+- `5.` About
+- `6.` Exit App
+
+### Text Entry 
+
+- `Y`: backspace.
+- `X`: insert space.
+- `R3`: save/confirm text in most text-entry screens.
+- `Start`: also saves in some text-entry screens (profile name, some auth fields).
+
+### Extras
+
+- `L3` deletes entries, `R3` creates, saves, or confirms entries.
+- `X` and `Y` toggles the current selection in Timer and Meditation.
+- Timer/Pomodoro/Meditation pickers: `R3` opens Focus Activity selection.
+- Routines: `L2/R2` changes selected day, `Left/Right` changes time of the day.
+- Tasks list: `R3` adds item, `L3` deletes selected item, `Y` resets completion marks for current list.
+
