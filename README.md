@@ -55,10 +55,9 @@ What you are seeing here in practice comes from four systems that work together:
     alt="paw icon"
     style="vertical-align: middle;"
   />
-  1. Timer
+  Timer
 </h3>
 
-### 1. Timer
 
 Custom timer supports countdown or count-up and can be labeled for session tracking. Session history and stats are saved so you can see where your time actually went.
 
