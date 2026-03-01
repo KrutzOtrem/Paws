@@ -122,6 +122,8 @@ And weekly scheduling from Monday to Sunday.
 
 Booklets are plain text quick-reference files shown inside the app. They read `.txt` files from the `booklets/` folder.
 
+- Although there is no full Markdown support, the following styles are recognized: *italics*, **bold**, # h1, ## h2, ### h3, [main], [accent], and [highlight].
+
 
 ## Protocol Menu
 
