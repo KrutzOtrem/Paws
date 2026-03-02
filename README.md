@@ -249,6 +249,8 @@ sounds/ambience/it's raining (rain)/overlays/rain_001.png
 sounds/ambience/it's raining (rain)/rain.wav
 ```
 
+Currently, Paws only has rain and storm overlays, but has many other ambient sounds. 
+
 Current repo example:
 
 ```text
