@@ -234,7 +234,7 @@ scenes/<location>/overlays/<tag>/<tag>_001.png
 overlays/<tag>/<tag>_001.png
 ```
 
-Alternatively, if you do not wish to associate an ambience variation of specific locations, but only want to add ambience sounds with or without associated overlays:
+Alternatively, if you do not wish to associate ambient variations with specific locations, but simply want to add ambient sounds, with or without corresponding overlays:
 
 ```text
 sounds/ambience/<tag>        #
@@ -243,6 +243,7 @@ sounds/ambience/<tag>/<tag>/overlays/<tag>_001.png
 
 sounds/ambience/it's raining (rain)/overlays/rain_001.png
 sounds/ambience/it's raining (rain)/rain.wav
+```
 
 Current repo example:
 
