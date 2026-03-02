@@ -237,7 +237,7 @@ overlays/<tag>/<tag>_001.png
 Alternatively, if you do not wish to associate ambient variations with specific locations, but simply want to add ambient sounds, with or without corresponding overlays:
 
 ```text
-sounds/ambience/<tag>        #
+sounds/ambience/<tag>        # tags must be put inside parentheses. you can rename the folder however you like to change the name displayed in the top-right HUD.
 sounds/ambience/<tag>/<tag>.wav|mp3
 sounds/ambience/<tag>/<tag>/overlays/<tag>_001.png
 
