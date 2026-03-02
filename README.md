@@ -234,6 +234,16 @@ scenes/<location>/overlays/<tag>/<tag>_001.png
 overlays/<tag>/<tag>_001.png
 ```
 
+Alternatively, if you do not wish to associate an ambience variation of specific locations, but only want to add ambience sounds with or without associated overlays:
+
+```text
+sounds/ambience/<tag>        #
+sounds/ambience/<tag>/<tag>.wav|mp3
+sounds/ambience/<tag>/<tag>/overlays/<tag>_001.png
+
+sounds/ambience/it's raining (rain)/overlays/rain_001.png
+sounds/ambience/it's raining (rain)/rain.wav
+
 Current repo example:
 
 ```text
@@ -342,7 +352,7 @@ If this helps you do even one better session per day, it has done its job.
 - `R3`: play/pause current music.
 - `Y`: if a session is running, open end-session confirm.
 - `X`: toggle meta selector.
-- In meta selector: `Left/Right` change token, `Up/Down` change selected value, `R3` open stanza selector, `B` or `Y` close.
+  - In meta selector: `Left/Right` change token, `Up/Down` change selected value, `A` random background that matches the highlighted token, `R3` open stanza selector.
 - Hold `B` (~`450ms`) or `Power`: toggle HUD visibility.
 
 ### Menus
