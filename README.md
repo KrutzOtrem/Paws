@@ -177,7 +177,7 @@ Baseline keeps records of your focus/meditation sessions.
 
 I must say, if you only want timers, routines, meditation, and stats, you do not have to interact with this system at all.
 
-## Settings Main Menu
+## Settings Main Menu & Relavent Features
 
 ### 🧑 Profile
 
@@ -205,6 +205,10 @@ Sensitive auth fields (including Spotify tokens, Screenscraper, and RetroAchieve
 ### 📺 Display
 
 Display covers visuals, backgrounds, atmosphere, and text presentation.
+
+Almost all of the color settings are straightforward, except for `color harmony`. `Color harmony` is a rather unique feature: it samples UI colors from the currently displayed background image, allowing the text and interface tones to match the scene instead of relying solely on fixed palette choices.
+
+It’s less relevant at the moment, since I’m using a fixed color theme, but users with custom backgrounds and color schemes may find it useful. To enable it, toggle `color harmony` in the color settings and press `accord` to randomly select dominant colors from the background.
 
 Atmosphere features:
 
