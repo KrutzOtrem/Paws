@@ -8,7 +8,7 @@
   <a href="#timer-quick-menu">Timer</a>&nbsp;•&nbsp;
   <a href="#protocol-menu">Protocol</a>&nbsp;•&nbsp;
   <a href="#settings-main-menu">Settings</a>&nbsp;•&nbsp;
-  <a href="#stillroom-keybind-reference">Keybinds</a>&nbsp;•&nbsp;
+  <a href="#paws-keybind-reference">Keybinds</a>&nbsp;•&nbsp;
   <a href="#credits">Credits</a>
   
 </h3>
@@ -152,7 +152,7 @@ Terminal is the guidance interface, run by a cat who leans on sarcasm a bit too 
 Balance manages recuperation minutes and minute economy behavior.
 
 - Recuperation behavior is adjustable (rate + manual add/subtract)
-- You can use Stillroom as a pure focus app, or use guidance only by manually adding time
+- You can use Paws as a pure focus app, or use guidance only by manually adding time
 
 ### 👓 Simulations
 
@@ -342,7 +342,7 @@ If this helps you do even one better session per day, it has done its job.
 
 
 
-# Stillroom Keybind Reference
+# Paws Keybind Reference
 
 
 ### Main Screen
