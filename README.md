@@ -55,11 +55,11 @@ Paws is a distraction-free focus app for NextUI that pairs Pomodoro sessions, da
 
 At its core, Paws is a simple focus and time-management app for NextUI. I built it because I wanted a place to focus without using my phone as the center of that process. Phones are surely useful, but they are also where distraction lives.
 
-Indeed, for years, I noticed my attention span getting worse. Even without social media, I still had the same pattern of checking my mails, looking up random things, losing contexts, restarting.
+Indeed, for years, I noticed my attention span getting worse. Even without social media (which I have never participated in), I still had the same pattern of checking my mails, looking up random things, losing contexts, restarting.
 
 I’ve tried what feels like every focus and productivity app in existence. The serious ones, the lo-fi ones, the gamified ones. Simple timers, full-blown narrative games, anything with a Pomodoro timer built in. After years of testing and actually using them, this is probably the only topic where I can confidently call myself an expert.
 
-Many of those apps are clearly made with care, and they absolutely work for most people. Unfortunately, not for me. My mind throws up constant, random thoughts at me; some are real inspirations related to my work, but they're distractions nevertheless. A task that should take one hour turns into two or three because I start researching, checking the time, reading emails, or chasing `a super important topic before I forget`. In practice, this is noise, and frankly, a genius trick by the brain to avoid staying still and focusing.
+Many of those apps are clearly made with care, and they absolutely work for most people. Unfortunately, not for me. My mind throws up constant, random thoughts at me; some are real inspirations related to my work, but they're distractions nevertheless. A task that should take one hour turns into two or three because I start researching, checking the time, reading emails, or chasing `a super important topic before I forget`. In practice, this is noise, and a genuinely brilliant trick by the brain to avoid staying still and focusing.
 
 That is also why I picked this device format: you cannot truly multitask on it, so it is much harder to distract yourself. I also disabled music browsing behavior as much as possible, because my brain turned that into another avoidance pattern by constantly searching for the perfect track instead of focusing.
 
@@ -74,7 +74,7 @@ The Main Screen is the center of Paws: timer state, focus status, music state, b
 Core purpose:
 
 - Focus sessions with clear start/pause/resume flow
-- Background and mood control without leaving the session context
+- Background and ambience control without leaving the session context
 - Music and ambience control without turning the app into a full media browser
 - Lightweight HUD plus optional text customizations
 
@@ -127,24 +127,26 @@ Booklets are plain text quick-reference files shown inside the app. They read `.
 
 ## Protocol Menu
 
-Protocol is optional, but it is also the most distinctive part of Paws because it connects focus tracking to your game library.
+Protocol is optional, but it is also the most distinctive part of Paws because it connects focus tracking to your game library. It's probably one of a kind.
 
 ### 🐈‍⬛ Terminal
 
-Terminal is the guidance interface, run by a cat who leans on sarcasm a bit too much. His name is Paws, and he is the purroductivity and workmeow system itself, as he calls it.
+Terminal is the guidance interface, run by a cat who leans on puns and sarcasm a bit too much. His name is Paws, and he is the purroductivity and workmeow system itself, as he calls it.
 
-- Paws is the guidance interface. It continuously logs your focus and meditation sessions, then converts that history into two practical values: recuperation minutes (that you purchase tickets for game sessions with) and progression. You can run this system strictly, keep it looser, or manually add and subtract time depending on how rigid you want the loop to be.
+- Paws is the guidance interface. It continuously logs your focus and meditation sessions, then converts that history into two practical values: recuperation minutes (that you purchase tickets for game sessions with) and progression (for now, only rewards the user with titles). You can run this system strictly, keep it looser, or manually add and subtract time depending on how rigid you want the loop to be. You can find these under Settings → Gameplay.
 
 - Guidance manages up to three active quests at a time, excluding narrative questlines. Each quest is a concrete play objective tied to a game, system, or achievement, and this is where recuperation minutes are actually spent. Recommendations are pulled from your ROM library and can be limited by your system whitelist. Quests can be generated automatically or selected manually through Protocol.
 
 - When RetroAchievements data is available, Paws attaches the first locked achievement for the selected game. If that data is unavailable, it falls back to a time-based objective. Abandon behavior is intentionally restricted: a quest can only be abandoned after at least five minutes of play, and only if no achievement has been unlocked.
-  - For RetroAchievements-only assignments, I suggest scanning RA-only games under Settings → RetroAchievements. Otherwise, Paws will look for an achievement and fall back to generic quests if none are available. This happens because achievement calls are generated only after a random game is selected, as there’s no feasible way around that. I did implement a partial workaround by blacklisting games that have no RetroAchievements in the database, so when a game is randomly picked, it will naturally favor one with achievements. This is why scanning your ROM directories is helpful, though less necessary if your library mostly consists of popular games that already support achievements.
+  - For RetroAchievements-only assignments, I REALLY suggest scanning RA-only games under Settings → RetroAchievements. Otherwise, Paws will look for an achievement and fall back to generic quests if none are available. This happens because achievement calls are generated only after a random game is selected, as there’s no feasible way around that. I did implement a partial workaround by blacklisting games that have no RetroAchievements in the database, so when a game is randomly picked, it will naturally favor one with achievements. This is why scanning your ROM directories is helpful, though less necessary if your library mostly consists of popular games that already support achievements.
+    - Scanning takes a significant amount of time because it uses your API key to actively check every single ROM in your library and cache its RetroAchievements data for quest suggestions. You only need to do this once. After that, if RA-only quests are enabled, Paws will suggest objectives exclusively from games that support RetroAchievements and correctly identify your locked achievements. If your ROM collection mostly consists of relatively popular titles and lacks obscure ones, this is less useful, but I still recommend doing it.
   - Cross-checking your ROM directory against the RetroAchievements database requires a WebAPI key. These keys are long strings of numbers and letters and aren’t practical to enter using the embedded keyboard. Please open `./states/config.txt` and edit the line containing `ra_api_key=` to add your key manually.
-    - Under RetroAchievements settings, navigate to Authentication to find your API key. 
+    - Under RetroAchievements.org settings, navigate to Authentication to find your API key. 
 
 - Paws also hosts built-in and custom narrative guidance, which is predefined narrative content written by me and delivered through this flow. Narrative chains take time to design, write, and test, so updates are planned regularly but not rushed. They are basically one long quest chain (10 stages) centered on RetroAchievements objectives.
+  - I have planned narrative scripts around seven themes. The first is Patience, and it’s already included in the initial release. I have titled it *A Plumber’s Patience*, and it guides the player through several Mario titles, gradually increasing in difficulty. As for the remaining six, I have handpicked the achievements and mapped out a rough progression, but I still need to write the scripts. The hardest part is already done for those, so it should not take much more to release them.
 
-- Custom narratives are plain `.txt` files under `terminal/narratives/`, using an INI-style format with a `[meta]` block and staged nodes (`stage.N.*`). Supported task types are `play_game`, `play_console`, and `earn_achievement`, and these can be combined across stages. A typical quest chain is structured as intro, optional user branch, objective, then completion text. I encourage people to write and share narratives, mostly because it is fun to do, but especially now that RetroAchievements support is in place, and community-made quests can be a fun thing. I also built a node-based quest editor so anyone can create these quests, so please check it out [here](https://krutzotrem.github.io/stillroom-editor/) (this is an outdated build, but I will update the version when I find the time). RetroAchievements is my own port, so some edge-case behavior may differ slightly and you many encounter bugs (I hope you don't). Core functionality is the same, so these narrative quests can be completed within Paws, or within NextUI's own MinArch.
+- Custom narratives are plain `.txt` files under `terminal/narratives/`, using an INI-style format with a `[meta]` block and staged nodes (`stage.N.*`). Supported task types are `play_game`, `play_console`, and `earn_achievement`, and these can be combined across stages. A typical quest chain is structured as intro, optional user branch, objective, then completion text. I encourage people to write and share narratives, mostly because it is fun to do, but especially now that RetroAchievements support is in place for NextUI, and community-made quests can be a fun thing. I also built a node-based quest editor so anyone can create these quests, so please check it out [here](https://krutzotrem.github.io/stillroom-editor/) (this is an outdated build, but I will update the version when I find the time). Purrcade's RetroAchievements is my own port, so some edge-case behavior may differ slightly from NextUI and you may encounter bugs (I hope you don't). Core functionality is the same, so these narrative quests can be completed within Paws, or within NextUI's own MinArch, or anywhere really. 
 
 
 ### ⌛ Balance
@@ -249,7 +251,7 @@ sounds/ambience/it's raining (rain)/overlays/rain_001.png
 sounds/ambience/it's raining (rain)/rain.wav
 ```
 
-Currently, Paws only has rain and storm overlays, but has many other ambient sounds. 
+Currently, Paws only has rain and storm overlays, but has many other ambient sounds (barn, birds, city, fire, park, rain, river, storm, vinyl, waterfall, ocean). 
 
 Current repo example:
 
