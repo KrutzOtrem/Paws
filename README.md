@@ -7,7 +7,7 @@
 <h3 align="center">
   <a href="#timer-quick-menu">Timer</a>&nbsp;•&nbsp;
   <a href="#protocol-menu">Protocol</a>&nbsp;•&nbsp;
-  <a href="#settings-main-menu">Settings</a>&nbsp;•&nbsp;
+  <a href="#relevant-features">Features</a>&nbsp;•&nbsp;
   <a href="#paws-keybind-reference">Keybinds</a>&nbsp;•&nbsp;
   <a href="#credits">Credits</a>
   
@@ -179,7 +179,7 @@ Baseline keeps records of your focus/meditation sessions.
 
 I must say, if you only want timers, routines, meditation, and stats, you do not have to interact with this system at all.
 
-## Settings Main Menu & Relavent Features
+## Relevant Features
 
 ### 🧑 Profile
 
@@ -407,13 +407,50 @@ If this helps you do even one better session per day, it has done its job.
 
 ## Credits
 
-<details open> 
-<summary><strong>Meditations</strong></summary>
+<details open>
+<summary><strong>Guided Meditations</strong></summary>
 <br>
-  
-“Mindful Meditations” created by Diana Winston and others for the [UCLA Mindful](https://www.uclahealth.org/uclamindful), ©2011- 2024 The Regents of the University of California (The UC Regents).
+
+"Mindful Meditations" created by Diana Winston and others for the [UCLA Mindful](https://www.uclahealth.org/uclamindful), Copyright (c) 2011-2024 The Regents of the University of California (The UC Regents).
 
 Mindful Meditations are licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+</details>
 
+<details open>
+<summary><strong>Typography</strong></summary>
+<br>
 
+**Barlow Condensed**  
+Copyright (c) 2017 The Barlow Project Authors  
+Licensed under SIL OFL 1.1
+</details>
+
+<details open>
+<summary><strong>Third-Party Software</strong></summary>
+<br>
+
+- **Purrcade player frontend**: based on MinArch from the MinUI/NextUI ecosystem, with Paws-specific modifications and integration.
+- **dr_mp3 / dr_wav**: audio decoding in app runtime.  
+  License: Public Domain or MIT-0 (see source headers in `src/dr_mp3.h` and `src/dr_wav.h`).
+- **rcheevos**: RetroAchievements runtime/client support in player.  
+  License: see upstream project/license files in `player/rcheevos/`.
+- **libretro-common**: shared libretro support code in player.  
+  License: see file-level notices in `player/libretro-common/`.
+- **spotifyd**: Spotify Connect receiver used by bundled music integration.  
+  Source/license reference: `bin/README_SPOTIFY.txt`, `references/spotifyd-master/LICENSE`.
+- **dbus-daemon / dbus-send**: bundled D-Bus runtime tools for Spotify control.  
+  Notice file: `bin/dbus-send.copyright.txt`.
+- **yt-dlp**: optional media metadata/resolution helper.  
+  License: see upstream project license/distribution terms.
+- **Linked system libraries** (build/runtime): SDL2, SDL2_image, SDL2_ttf, libzip, pthread, dl, m, and optionally FFmpeg/OpenSSL depending on build flags.  
+  License texts should be shipped in your Third-Party Licenses package.
+</details>
+
+<details open>
+<summary><strong>Service Notice</strong></summary>
+<br>
+
+Spotify, YouTube, Bandcamp, RetroAchievements, and ScreenScraper are trademarks/services of their respective owners.
+
+Paws is an independent third-party project and is not affiliated with or endorsed by them.
 </details>
