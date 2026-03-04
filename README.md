@@ -135,6 +135,8 @@ Terminal is the guidance interface, run by a cat who leans on puns and sarcasm a
 
 - Paws is the guidance interface. It continuously logs your focus and meditation sessions, then converts that history into two practical values: recuperation minutes (that you purchase tickets for game sessions with) and progression (for now, only rewards the user with titles). You can run this system strictly, keep it looser, or manually add and subtract time depending on how rigid you want the loop to be. You can find these under Settings → Gameplay.
 
+- You can start these quests under `Simulations → Ongoing` (3rd icon) or `Protocols → Assignments` (5th icon). 
+
 - Guidance manages up to three active quests at a time, excluding narrative questlines. Each quest is a concrete play objective tied to a game, system, or achievement, and this is where recuperation minutes are actually spent. Recommendations are pulled from your ROM library and can be limited by your system whitelist. Quests can be generated automatically or selected manually through Protocol.
 
 - When RetroAchievements data is available, Paws attaches the first locked achievement for the selected game. If that data is unavailable, it falls back to a time-based objective. Abandon behavior is intentionally restricted: a quest can only be abandoned after at least five minutes of play, and only if no achievement has been unlocked.
