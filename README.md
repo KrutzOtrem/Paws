@@ -407,7 +407,7 @@ If this helps you do even one better session per day, it has done its job.
 
 ## Credits
 
-<details open>
+<details>
 <summary><strong>Guided Meditations</strong></summary>
 <br>
 
@@ -416,7 +416,7 @@ If this helps you do even one better session per day, it has done its job.
 Mindful Meditations are licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 </details>
 
-<details open>
+<details>
 <summary><strong>Typography</strong></summary>
 <br>
 
@@ -425,7 +425,18 @@ Copyright (c) 2017 The Barlow Project Authors
 Licensed under SIL OFL 1.1
 </details>
 
-<details open>
+<details>
+<summary><strong>Ambience Sounds</strong></summary>
+<br>
+
+Some ambience sounds are from Cymatics "Life Ambient Recordings".
+
+Usage is subject to Cymatics terms and product licensing:
+- https://cymatics.fm/pages/terms-of-service
+- https://cymatics.fm/products/life-ambient-recordings
+</details>
+
+<details>
 <summary><strong>Third-Party Software</strong></summary>
 <br>
 
@@ -446,7 +457,7 @@ Licensed under SIL OFL 1.1
   License texts should be shipped in your Third-Party Licenses package.
 </details>
 
-<details open>
+<details>
 <summary><strong>Service Notice</strong></summary>
 <br>
 
