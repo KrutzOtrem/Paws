@@ -13,7 +13,7 @@
   
 </h3>
 
-Paws is a distraction-free focus app for NextUI that pairs Pomodoro sessions, daily schedules, and music integration with a system that turns your focus time into budgeted gaming sessions. It comes with an unimpressed cat, who has a particular habit of assigning tasks. Consider it corrective training.
+Paws is a distraction-free focus app for NextUI that pairs Pomodoro sessions, daily schedules, and music integration with a system that turns your focus time into budgeted gaming sessions. It comes with an unimpressed cat who has a particular habit of assigning tasks. Consider it corrective training.
 
 ## 📱 Screenshots
 <p>
