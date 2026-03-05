@@ -3,6 +3,11 @@
   🐈‍⬛ Paws, Productivity and Workflow System
 </h1>
 
+<div align="center">
+  <a href="https://github.com/KrutzOtrem/Paws/releases/download/v1.0.0/Paws.pak.zip">
+    <img src=".github/resources/install.png" width="120">
+  </a>
+</div>
 <!-- minimal jump-<img src="https://github.com/user-attachments/assets/44abbcda-a786-4b9f-91cb-46cf99003799" height="20">s bar -->
 <h3 align="center">
   <a href="#timer-quick-menu">Timer</a>&nbsp;•&nbsp;
