@@ -131,7 +131,7 @@ Booklets used to display only simple .txt files for reference checking, but I re
 
 You can now, create proper folders and .md files, write in them with your wired or Bluetooth keyboard, and then access them on your computer for proper editing. It is very much bare-bones and intentionally limited in functionality (like iA Writer if you ever used it), but I am open to suggestions. 
 
-Global `L3` and `R3` functionality still applies. `L3` deletes, and `R3` creates. Inside an `.md` file, you can press `R3` to start typing with the keyboard. To use Bluetooth, you must first pair the keyboard in-app. This is necessary because, although you can technically pair it through NextUI, it registers it as a no input-output gamepad. Paws still uses the same BlueZ service, but registers its own agent with additional properties, which allows for more communication. I think some parts for pairing still require polishing, but so far it is a good start.
+Global `L3` and `R3` functionality still applies. `L3` deletes, and `R3` creates. Inside an `.md` file, you can press `R3` to start typing with the keyboard. To use Bluetooth, you must first pair the keyboard in-app under `profile settings -> bluetooth keyboard`. This is necessary because, although you can technically pair it through NextUI, it registers it as a no input-output gamepad. Paws still uses the same BlueZ service, but registers its own agent with additional properties, which allows for more communication. I think some parts for pairing still require polishing, but so far it is a good start.
 
 - Although there is no full Markdown support, the following styles are recognized: *italics*, **bold**, # h1, ## h2, ### h3, [main], [accent], and [highlight].
 
