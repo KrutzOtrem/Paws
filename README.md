@@ -125,7 +125,13 @@ And weekly scheduling from Monday to Sunday.
 
 ### 📖 Booklets
 
-Booklets are plain text quick-reference files shown inside the app. They read `.txt` files from the `booklets/` folder.
+For people who like sitting in cafés with their lattes and laptops, floating in daydreams to postpone the loneliness (and perhaps hoping to attract the opposite sex), I do have a conversation starter: “Is that a phone you are writing into?” “Actually, no... Have you heard of Paws? No? NextUI? No? Oh, it's rude of me, please take a seat.” 
+
+Booklets used to display only simple .txt files for reference checking, but I revamped them into a minimalistic markdown editor. One of the reasons I made Paws was because I needed a distraction-free timer and other little tools, but I had also been seeing a lot of DIY devices with keyboards that allowed text input on Youtube. I did not find much personal need for it, but Paws’ second and probably the only user suggested text input, so here we are. 
+
+You can now, create proper folders and .md files, write in them with your wired or Bluetooth keyboard, and then access them on your computer for proper editing. It is very much bare-bones and intentionally limited in functionality (like iA Writer if you ever used it), but I am open to suggestions. 
+
+Global `L3` and `R3` functionality still applies. `L3` deletes, and `R3` creates. Inside an `.md` file, you can press `R3` to start typing with the keyboard. To use Bluetooth, you must first pair the keyboard in-app. This is necessary because, although you can technically pair it through NextUI, it registers it as a no input-output gamepad. Paws still uses the same BlueZ service, but registers its own agent with additional properties, which allows for more communication. I think some parts for pairing still require polishing, but so far it is a good start.
 
 - Although there is no full Markdown support, the following styles are recognized: *italics*, **bold**, # h1, ## h2, ### h3, [main], [accent], and [highlight].
 
@@ -407,6 +413,7 @@ If this helps you do even one better session per day, it has done its job.
 ### Extras
 
 - `L3` deletes entries, `R3` creates, saves, or confirms entries.
+- `R3` switches to keyboard mode in booklets.
 - `X` and `Y` toggles the current selection in Timer and Meditation.
 - Timer/Pomodoro/Meditation pickers: `R3` opens Focus Activity selection.
 - Routines: `L2/R2` changes selected day, `Left/Right` changes time of the day.
